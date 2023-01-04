@@ -24,20 +24,41 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
   CardTitle,
-  ListGroupItem,
-  ListGroup,
   Container,
   Row,
-  Col
+  Col,
+  UncontrolledCarousel,
+  Form,
+  FormGroup,
+  Input,
+  UncontrolledTooltip
 } from "reactstrap";
+
+
 
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Footer from "components/Footer/Footer.js";
 
-import bigChartData from "variables/charts.js";
+const carouselItems = [
+  {
+    src: require("assets/img/denys.jpg"),
+    altText: "Slide 1",
+    caption: "Big City Life, United States"
+  },
+  {
+    src: require("assets/img/fabien-bazanegue.jpg"),
+    altText: "Slide 2",
+    caption: "Somewhere Beyond, United States"
+  },
+  {
+    src: require("assets/img/mark-finn.jpg"),
+    altText: "Slide 3",
+    caption: "Stocks, United States"
+  }
+];
+
 
 export default function LandingPage() {
   React.useEffect(() => {
@@ -247,13 +268,13 @@ export default function LandingPage() {
                       
                     </h1>
                     <p>
-                       - Vetting Projects, Projects Founders. 
+                       - Vetting Projects, Projects Founders. <br />
+                       -Provide Project Security services. <br />
+     -Providing Reliable trackable marketing services <br />
                     </p>
                     <br />
                     <p>
-                      When, while the lovely valley teems with vapour around me,
-                      and the meridian sun strikes the upper surface of the
-                      impenetrable foliage of my trees, and but a few stray.
+                      "Mission Statement".
                     </p>
                     <br />
                     <a
@@ -286,57 +307,216 @@ export default function LandingPage() {
             className="path3"
             src={require("assets/img/path2.png")}
           />
+
           <Container>
-            <Row className="justify-content-center">
-              <Col lg="12">
-                <h1 className="text-center">Your best benefit</h1>
-                <Row className="row-grid justify-content-center">
-                  <Col lg="3">
-                    <div className="info">
-                      <div className="icon icon-primary">
-                        <i className="tim-icons icon-money-coins" />
-                      </div>
-                      <h4 className="info-title">Low Commission</h4>
-                      <hr className="line-primary" />
-                      <p>
-                        Divide details about your work into parts. Write a few
-                        lines about each one. A paragraph describing a feature
-                        will.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="3">
-                    <div className="info">
-                      <div className="icon icon-warning">
-                        <i className="tim-icons icon-chart-pie-36" />
-                      </div>
-                      <h4 className="info-title">High Incomes</h4>
-                      <hr className="line-warning" />
-                      <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing feature will be a feature.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="3">
-                    <div className="info">
-                      <div className="icon icon-success">
-                        <i className="tim-icons icon-single-02" />
-                      </div>
-                      <h4 className="info-title">Verified People</h4>
-                      <hr className="line-success" />
-                      <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing be enough.
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
+           <Row>
+                <Col className="ml-auto mr-auto text-center col-md-8">
+                <h2 className="title">About Us </h2>
+                <h4 className="description">
+                  This is the paragraph where you can write more details about your
+                  team. Keep you user engaged by providing meaningful information.
+                </h4>
               </Col>
             </Row>
-          </Container>
+              <Row>
+              <div className="carousel-team carousel slide">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <Container>
+                      <Row>
+                        <Col >
+                          <h1 className="title">Ghost Trapper</h1>
+                        
+                        <Col >
+                          <div className="wrapper">
+                            <div className="category">
+                              <strong>Position:</strong> Founder <br />
+                              <strong>Experience:</strong> 10 Years
+                            </div>
+                            <div className="description">
+                              GhostTrapper .....
+                              .......
+                            </div>
+                            <div className="footer">
+                              <a
+                                href="#pablo"
+                                className="btn-icon btn-round btn btn-twitter"
+                              >
+                                <i className="fab fa-twitter"></i>
+                              </a>
+                            </div>
+                          </div>
+                          </Col>
+                          </Col>
+                        <Col >
+                          <img
+                            alt="ghosttrapper"
+                            className="ghost"
+                            src= {require("assets/img/Ghost.png")}
+                          
+                          />
+                        </Col>
+
+                      </Row>
+                      <Row>
+                        <Col >
+                        
+                          <img
+                            alt="ghosttrapper"
+                            className="ghost"
+                            src= {require("assets/img/Cqpone.png")}
+                          
+                          />
+                       
+                          </Col>
+                        <Col >
+                        <h1 className="title">Cqpon3</h1>
+                        <Col >
+
+                        <div className="wrapper">
+                          <div className="category">
+                            <strong>Position:</strong> Legal <br />
+                            <strong>Experience:</strong> 10 Years
+                          </div>
+                          <div className="description">
+                            Cqpon3 .....
+                            .......
+                          </div>
+                          <div className="footer">
+                            <a
+                              href="#pablo"
+                              className="btn-icon btn-round btn btn-twitter"
+                            >
+                              <i className="fab fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                        </Col>
+                      </Col>
+                      </Row>
+                      <Row>
+                        <Col >
+                          <h1 className="title">Bubble Queen</h1>
+                        
+                        <Col >
+                          <div className="wrapper">
+                            <div className="category">
+                              <strong>Position:</strong> Council Member <br />
+                              <strong>Experience:</strong> 10 Years
+                            </div>
+                            <div className="description">
+                              Bubble Queen .....
+                              .......
+                            </div>
+                            <div className="footer">
+                              <a
+                                href="#pablo"
+                                className="btn-icon btn-round btn btn-twitter"
+                              >
+                                <i className="fab fa-twitter"></i>
+                              </a>
+                            </div>
+                          </div>
+                          </Col>
+                          </Col>
+                        <Col >
+                          <img
+                            alt="ghosttrapper"
+                            className="ghost"
+                            src= {require("assets/img/BubbleQ.png")}
+                          
+                          />
+                        </Col>
+
+                      </Row>
+                      <Row>
+                        <Col >
+                        
+                          <img
+                            alt="Muka"
+                            className="ghost"
+                            width="85%" height="85%"
+                            src= {require("assets/img/2065.png")}
+                          
+                          />
+                       
+                          </Col>
+                        <Col >
+                        <h1 className="title">Mukubass</h1>
+                        <Col >
+
+                        <div className="wrapper">
+                          <div className="category">
+                            <strong>Position:</strong> Dev & Security <br />
+                            <strong>Experience:</strong> 10 Years
+                          </div>
+                          <div className="description">
+                            Mukubass .....
+                            .......
+                          </div>
+                          <div className="footer">
+                            <a
+                              href="#pablo"
+                              className="btn-icon btn-round btn btn-twitter"
+                            >
+                              <i className="fab fa-twitter"></i>
+                            </a>
+                          </div>
+                        </div>
+                        </Col>
+                        </Col>
+                       </Row>
+                       <Row>
+                        <Col >
+                          <h1 className="title">Sadica</h1>
+                        
+                        <Col >
+                          <div className="wrapper">
+                            <div className="category">
+                              <strong>Position:</strong> Social Media <br />
+                              <strong>Experience:</strong> 10 Years
+                            </div>
+                            <div className="description">
+                              Sadica .....
+                              .......
+                            </div>
+                            <div className="footer">
+                              <a
+                                href="#pablo"
+                                className="btn-icon btn-round btn btn-twitter"
+                              >
+                                <i className="fab fa-twitter"></i>
+                              </a>
+                            </div>
+                          </div>
+                          </Col>
+                          </Col>
+                        <Col >
+                          <img
+                            alt="ghosttrapper"
+                            className="ghost"
+                            src= {require("assets/img/Sadica.png")}
+                          
+                          />
+                        </Col>
+
+                      </Row>
+                       
+                      
+                    
+                    
+                  
+                    </Container>
+                   
+                </div>
+              </div>
+              </div>
+              </Row>
+              
+              
+         </Container>
+      
+
         </section>
         <section className="section section-lg section-safe">
           <img
@@ -388,11 +568,9 @@ export default function LandingPage() {
               <Col md="6">
                 <div className="px-md-5">
                   <hr className="line-success" />
-                  <h3>Awesome features</h3>
+                  <h3>Initiatives</h3>
                   <p>
-                    The design system comes with three pre-built pages to help
-                    you get started faster. You can change the text and images
-                    and you're good to go.
+                    To Promote a Safer & Diverse space Bored Ape Productions has implented the following initiatives 
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
@@ -401,7 +579,9 @@ export default function LandingPage() {
                           <i className="tim-icons icon-vector" />
                         </div>
                         <div className="ml-3">
-                          <h6>Carefully crafted components</h6>
+                          <h6>Bored Ape Upward Mobility Program</h6> <br />
+
+                          
                         </div>
                       </div>
                     </li>
@@ -432,38 +612,154 @@ export default function LandingPage() {
           </Container>
         </section>
         <section className="section section-lg">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/path4.png")}
-          />
-          <img
-            alt="..."
-            className="path2"
-            src={require("assets/img/path2.png")}
-          />
-          <Col md="12">
-            <Card className="card-chart card-plain">
-              <CardHeader>
-                <Row>
-                  <Col className="text-left" sm="6">
-                    <hr className="line-info" />
-                    <h5 className="card-category">Total Investments</h5>
-                    <CardTitle tag="h2">Performance</CardTitle>
-                  </Col>
+        <div className="section">
+          <Container>
+            <Row className="justify-content-between">
+              <Col md="6">
+                <Row className="justify-content-between align-items-center">
+                  <UncontrolledCarousel items={carouselItems} />
                 </Row>
-              </CardHeader>
-              <CardBody>
-                <div className="chart-area">
-                  <Line
-                    data={bigChartData.data}
-                    options={bigChartData.options}
-                  />
+              </Col>
+              <Col md="5">
+                <h1 className="profile-title text-left">Projects</h1>
+                <h5 className="text-on-back">02</h5>
+                <p className="profile-description text-left">
+                  An artist of considerable range, Ryan — the name taken by
+                  Melbourne-raised, Brooklyn-based Nick Murphy — writes,
+                  performs and records all of his own music, giving it a warm,
+                  intimate feel with a solid groove structure. An artist of
+                  considerable range.
+                </p>
+                <div className="btn-wrapper pt-3">
+                  <Button
+                    className="btn-simple"
+                    color="primary"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <i className="tim-icons icon-book-bookmark" /> Bookmark
+                  </Button>
+                  <Button
+                    className="btn-simple"
+                    color="info"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <i className="tim-icons icon-bulb-63" /> Check it!
+                  </Button>
                 </div>
-              </CardBody>
-            </Card>
-          </Col>
+              </Col>
+            </Row>
+          </Container>
+        </div>
         </section>
+        <section className="section">
+          <Container>
+            <Row>
+              <Col md="6">
+                <Card className="card-plain">
+                  <CardHeader>
+                    <h1 className="profile-title text-left">Contact</h1>
+                    <h5 className="text-on-back">03</h5>
+                  </CardHeader>
+                  <CardBody>
+                    <Form>
+                      <Row>
+                        <Col md="6">
+                          <FormGroup>
+                            <label>Your Name</label>
+                            <Input defaultValue="Mike" type="text" />
+                          </FormGroup>
+                        </Col>
+                        <Col md="6">
+                          <FormGroup>
+                            <label>Email address</label>
+                            <Input placeholder="mike@email.com" type="email" />
+                          </FormGroup>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col md="6">
+                          <FormGroup>
+                            <label>Phone</label>
+                            <Input defaultValue="001-12321345" type="text" />
+                          </FormGroup>
+                        </Col>
+                        <Col md="6">
+                          <FormGroup>
+                            <label>Company</label>
+                            <Input defaultValue="CreativeTim" type="text" />
+                          </FormGroup>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col md="12">
+                          <FormGroup>
+                            <label>Message</label>
+                            <Input placeholder="Hello there!" type="text" />
+                          </FormGroup>
+                        </Col>
+                      </Row>
+                      <Button
+                        className="btn-round float-right"
+                        color="primary"
+                        data-placement="right"
+                        id="tooltip341148792"
+                        type="button"
+                      >
+                        Send text
+                      </Button>
+                      <UncontrolledTooltip
+                        delay={0}
+                        placement="right"
+                        target="tooltip341148792"
+                      >
+                        Can't wait for your message
+                      </UncontrolledTooltip>
+                    </Form>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col className="ml-auto" md="4">
+                <div className="info info-horizontal">
+                  <div className="icon icon-primary">
+                    <i className="tim-icons icon-square-pin" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Find us at the office</h4>
+                    <p>
+                      Bld Mihail Kogalniceanu, nr. 8, <br />
+                      7652 Bucharest, <br />
+                      Romania
+                    </p>
+                  </div>
+                </div>
+                <div className="info info-horizontal">
+                  <div className="icon icon-primary">
+                    <i className="tim-icons icon-mobile" />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title">Give us a ring</h4>
+                    <p>
+                      Michael Jordan <br />
+                      +40 762 321 762 <br />
+                      Mon - Fri, 8:00-22:00
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+
+/**        
         <section className="section section-lg section-coins">
           <img
             alt="..."
@@ -579,9 +875,4 @@ export default function LandingPage() {
               </Col>
             </Row>
           </Container>
-        </section>
-        <Footer />
-      </div>
-    </>
-  );
-}
+        </section>  */
