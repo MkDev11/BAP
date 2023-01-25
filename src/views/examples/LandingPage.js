@@ -95,7 +95,7 @@ export default function LandingPage() {
                 <h3 className="text-white">
                 <img lg="6" md="5"
                             alt="ghosttrapper"
-                            className="ghost"
+                            className="img-center "
                             height="10px"
                             src= {require("assets/img/BoredApeShow-Logo.png")}
                           
@@ -153,7 +153,7 @@ export default function LandingPage() {
                <Col  className="justify-content-between align-items-center" >
                 <img
                   alt="..."
-                  className=" justify-content-between align-items-center"
+                  className=" justify-content-between img-center rounded-circle shadow-lg"
                   src={require("assets/img/GhostApeshow.png")}
                 />
                </Col>
@@ -256,7 +256,7 @@ export default function LandingPage() {
                   </Row>
                 </Col>
                 <Col md="6">
-                  <div className="pl-md-5">
+                  <div className="ml-auto mr-auto text-center col-md-8">
                     <h1>
                       Mission <br />
                       
@@ -299,26 +299,26 @@ export default function LandingPage() {
             src={require("assets/img/path2.png")}
           />
 
-          <Container>
-           <Row>
-                <Col className="ml-auto mr-auto text-center col-md-8">
-                <h2 className="title">About Us </h2>
-                <h4 className="description">
-                  In addition to providing funding for promising projects, 
-                  the investors also offer their expertise and insights on the world of cryptocurrency. 
-                  From blockchain technology to digital asset management,
-                  "The Bored Ape Show" educates viewers on the latest trends and developments in the world of all things NFT's, de-fi, and crypto.
-                </h4>
-              </Col>
-            </Row>
+            <Container>
               <Row>
-              <div className="carousel-team carousel slide">
+                <Col className="ml-auto mr-auto text-center col-md-8">
+                  <h2 className="title">About Us </h2>
+                      <h4 className="description">
+                        In addition to providing funding for promising projects, 
+                        the investors also offer their expertise and insights on the world of cryptocurrency. 
+                        From blockchain technology to digital asset management,
+                        "The Bored Ape Show" educates viewers on the latest trends and developments in the world of all things NFT's, de-fi, and crypto.
+                      </h4>
+                </Col>
+              </Row>
+              <Row>
+               <div className="carousel-team carousel slide">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <Container>
-                      <Row>
+                    <Row>
                         <Col >
-                          <h1 className="title">GhostTrapper.eth</h1>
+                          <h1 className="title">Ghosttapper</h1>
                         
                         <Col >
                           <div className="wrapper">
@@ -327,7 +327,7 @@ export default function LandingPage() {
                               <strong>Experience:</strong> 10 Years
                             </div>
                             <div className="description">
-                              GhostTrapper .....
+                              Ghost.....
                               .......
                             </div>
                             <div className="footer">
@@ -342,7 +342,7 @@ export default function LandingPage() {
                           </Col>
                           </Col>
                         <Col >
-                          <img
+                          <img size="100%"
                             alt="ghosttrapper"
                             className="ghost"
                             src= {require("assets/img/Ghost.png")}
@@ -350,9 +350,9 @@ export default function LandingPage() {
                           />
                         </Col>
 
-                      </Row>
-                      <Row>
-                        <Col >
+                        </Row>
+                            <Row>
+                            <Col >
                         
                           <img
                             alt="Muka"
@@ -387,9 +387,9 @@ export default function LandingPage() {
                         </div>
                         </Col>
                         </Col>
-                       </Row>
+                        </Row>
                       
-                      <Row>
+                       <Row>
                         <Col >
                           <h1 className="title">Cqpon3</h1>
                         
@@ -423,8 +423,8 @@ export default function LandingPage() {
                           />
                         </Col>
 
-                      </Row>
-                      <Row>
+                        </Row>
+                        <Row>
                         <Col >
                         
                           <img
@@ -458,8 +458,8 @@ export default function LandingPage() {
                           </div>
                         </div>
                         </Col>
-                      </Col>
-                      </Row>
+                        </Col>
+                        </Row>
                        <Row>
                         <Col >
                           <h1 className="title">Sadica</h1>
@@ -494,7 +494,7 @@ export default function LandingPage() {
                           />
                         </Col>
 
-                      </Row>
+                        </Row>
                       <Row>
                         <Col >
                         
@@ -559,46 +559,18 @@ export default function LandingPage() {
               <Col md="5">
                 <img
                   alt="..."
-                  className="img floating"
+                  className="img floating img-center"
+                  width="500"
+                  height="250"
                   src={require("assets/img/BAPMC.jpg")}
                 />
-                <Card className="card-stats bg-danger">
-                  <CardBody>
-                    <div className="justify-content-center">
-                      <div className="numbers">
-                        <CardTitle tag="p"></CardTitle>
-                        <p className="card-category text-white"></p>
-                      </div>
-                    </div>
-                  </CardBody>
-                </Card>
-                <Card className="card-stats bg-info">
-                  <CardBody>
-                    <div className="justify-content-center">
-                      <div className="numbers img-fluid">
-                        <CardTitle tag="p"></CardTitle>
-                        <p className="card-category text-white">
-                          
-                        </p>
-                      </div>
-                    </div>
-                  </CardBody>
-                </Card>
-                <Card className="card-stats bg-default">
-                  <CardBody>
-                    <div className="justify-content-center">
-                      <div className="numbers img-fluid">
-                        <CardTitle tag="p"></CardTitle>
-                        <p className="card-category text-white"></p>
-                      </div>
-                    </div>
-                  </CardBody>
-                </Card>
+
+              
               </Col>
               <Col md="6">
-                <div className="px-md-5">
-                  <hr className="line-success" />
-                  <h3>Initiatives</h3>
+                <div className="px-md-5 align-items-center">
+                  <hr className="line-success line-center" />
+                  <h3 className="text-center">Initiatives</h3>
                   <p>
                     To Promote a Safer & Diverse space Bored Ape Productions has implented the following initiatives 
                   </p>
@@ -647,7 +619,7 @@ export default function LandingPage() {
             <Row className="justify-content-between">
               <Col md="5">
                 
-                <h1 className="profile-title text-left">Projects</h1>
+                <h1 className="profile-title text-center">Projects</h1>
                 
                 <p className="profile-description text-left">
                 But it's not just about the money - "The Bored Ape Show" also showcases
