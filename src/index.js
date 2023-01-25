@@ -34,12 +34,12 @@ root.render(
     <Switch>
      
       <Route
-        path="/landing-page"
+        path="/"
         render={(props) => <LandingPage {...props} />}
       />
 
 
-      <Redirect from="/" to="/landing-page" />
+      <Redirect from="/" to="/" />
     </Switch>
   </BrowserRouter>
 );

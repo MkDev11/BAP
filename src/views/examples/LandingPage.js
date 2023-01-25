@@ -559,7 +559,7 @@ export default function LandingPage() {
               <Col md="5">
                 <img
                   alt="..."
-                  className="img-fluid floating"
+                  className="img floating"
                   src={require("assets/img/BAPMC.jpg")}
                 />
                 <Card className="card-stats bg-danger">
@@ -575,7 +575,7 @@ export default function LandingPage() {
                 <Card className="card-stats bg-info">
                   <CardBody>
                     <div className="justify-content-center">
-                      <div className="numbers">
+                      <div className="numbers img-fluid">
                         <CardTitle tag="p"></CardTitle>
                         <p className="card-category text-white">
                           
@@ -587,7 +587,7 @@ export default function LandingPage() {
                 <Card className="card-stats bg-default">
                   <CardBody>
                     <div className="justify-content-center">
-                      <div className="numbers">
+                      <div className="numbers img-fluid">
                         <CardTitle tag="p"></CardTitle>
                         <p className="card-category text-white"></p>
                       </div>
@@ -610,9 +610,30 @@ export default function LandingPage() {
                           <i className="tim-icons icon-single-02" />
                         </div>
                         <div className="ml-3">
-                          <h6>Bored Ape Upward Mobility Program</h6>
+                          <h6>Web3 Coffee and News : A latinx women-led news show that dives into all things Crypto and Web3 </h6>
+                        </div>
+                        
+                      </div>
+                      <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div className="icon icon-success mb-2">
+                          <i className="tim-icons icon-vector" />
+                        </div>
+                        <div className="ml-3">
+                          <h6> NIFTYSAFE:  </h6>                         
                         </div>
                       </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div className="icon icon-success mb-2">
+                          <i className="tim-icons icon-tap-02" />
+                        </div>
+                        <div className="ml-3">
+                          <h6>Bored Ape Mobility Program: </h6>
+                        </div>
+                      </div>
+                    </li>
                     </li>
                   </ul>
                 </div>
@@ -620,59 +641,44 @@ export default function LandingPage() {
             </Row>
           </Container>
         </section>
-        <section className="section section-lg section-safe">
+        <section className="section section-lg">
         <div className="section">
           <Container>
-            <Row >
-
+            <Row className="justify-content-between">
               <Col md="5">
+                
                 <h1 className="profile-title text-left">Projects</h1>
-                <Col md="6">
-                <Row className="align-items-center">
-                  <br></br>
-                  <UncontrolledCarousel items={carouselItems} />
-                  <br></br>
-                </Row>
-                <Row>
-                  <div> </div>
-                </Row> 
-              </Col>
+                
                 <p className="profile-description text-left">
                 But it's not just about the money - "The Bored Ape Show" also showcases
                  the human stories behind the tech. 
                  From college students with big ideas to experienced professionals looking to revolutionize their industry, the show follows the entrepreneurs as they navigate the ups and downs of starting a crypto/defi/nft project.
                 </p>
 
-                <div className="btn-wrapper pt-3">
-                  <Button
-                    className="btn-simple"
-                    color="primary"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="tim-icons icon-book-bookmark" /> Bookmark
-                  </Button>
-                  <Button
-                    className="btn-simple"
-                    color="info"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="tim-icons icon-bulb-63" /> Check it!
-                  </Button>
-                </div>
-              </Col>
+
+                <Col md="6">
+
+               </Col>
+                </Col>
+                <Col>
+                <Row className="justify-content-between align-items-center"> 
+                  <UncontrolledCarousel items={carouselItems} />
+                  
+                </Row>
+               
+                </Col>
+             
             </Row>
           </Container>
         </div>
         </section>
-        <section className="section">
+        <section className="section align-items-center">
           <Container>
-            <Row>
-              <Col md="6">
-                <Card className="card-plain">
+            <Row className="ml-auto mr-auto text-center col-md-8">
+              <Col>
+                <Card className="card-plain ">
                   <CardHeader>
-                    <h1 className="profile-title text-left">Contact</h1>
+                    <h1 className="profile-title text-center">Contact</h1>
                   
                   </CardHeader>
                   <CardBody>
@@ -741,6 +747,26 @@ export default function LandingPage() {
 
 
 /**   
+ * 
+ * 
+ *                 <div className="btn-wrapper pt-3">
+                  <Button
+                    className="btn-simple"
+                    color="primary"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <i className="tim-icons icon-book-bookmark" /> Bookmark
+                  </Button>
+                  <Button
+                    className="btn-simple"
+                    color="info"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    <i className="tim-icons icon-bulb-63" /> Check it!
+                  </Button>
+                </div>
                    <li className="py-2">
                       <div className="d-flex align-items-center">
                         <div className="icon icon-success mb-2">
