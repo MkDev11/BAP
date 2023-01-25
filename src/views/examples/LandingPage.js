@@ -28,18 +28,18 @@ const carouselItems = [
     src: require("assets/img/FHP.gif"),
     
     altText: "Slide 1",
-    caption: "Big City Life, United States"
+    caption: "Friends in High Places"
   },
   {
     src: require("assets/img/GFC.jpg"),
   
     altText: "Slide 2",
-    caption: "Somewhere Beyond, United States"
+    caption: "Galaxy Fight Club"
   },
   {
     src: require("assets/img/ddegens.jpg"),
     altText: "Slide 3",
-    caption: "Stocks, United States"
+    caption: "DecentraDegens"
   }
 ];
 
@@ -59,8 +59,8 @@ export default function LandingPage() {
         <div className="page-header">
           <img
             alt="..."
-            className="path"
-            src={require("assets/img/blob.png")}
+            className="path img-center"
+            src={require("assets/img/OnAir.png")}
           />
           <img
             alt="..."
@@ -70,7 +70,7 @@ export default function LandingPage() {
           <img
             alt="..."
             className="shapes triangle"
-            src={require("assets/img/triunghiuri.png")}
+            src={require("assets/img/OnAir.png")}
           />
           <img
             alt="..."
@@ -93,10 +93,10 @@ export default function LandingPage() {
                 <Row className="row-grid justify-content-between align-items-center ">
                  <Col >
                 <h3 className="text-white">
-                <img lg="6" md="5"
+                <img 
                             alt="ghosttrapper"
                             className="img-center "
-                            height="10px"
+                            
                             src= {require("assets/img/BoredApeShow-Logo.png")}
                           
                        /><div />
@@ -106,20 +106,7 @@ export default function LandingPage() {
                 <p className="text-white mb-3">
              
                 </p>
-                <div className="btn-wrapper mb-3">
-                  <p className="category text-success d-inline">
-                    
-                  </p>
-                  <Button
-                    className="btn-link"
-                    color="success"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    size="sm"
-                  >
-                    <i className="tim-icons icon-minimal-right" />
-                  </Button>
-                </div>
+
                 <div className="btn-wrapper">
                   <div className="button-container">
                     <Button
@@ -153,6 +140,7 @@ export default function LandingPage() {
                <Col  className="justify-content-between align-items-center" >
                 <img
                   alt="..."
+                  height="500"
                   className=" justify-content-between img-center rounded-circle shadow-lg"
                   src={require("assets/img/GhostApeshow.png")}
                 />
@@ -327,8 +315,9 @@ export default function LandingPage() {
                               <strong>Experience:</strong> 10 Years
                             </div>
                             <div className="description">
-                              Ghost.....
-                              .......
+                            Web3 Enthusiast & 10 year Vet, NFT collector,
+                             BAYC Maxi, Cannabis Lover & Advocate,
+                              Inclusivity Consultant & Master of today being a GREATDAY!
                             </div>
                             <div className="footer">
                               <a
