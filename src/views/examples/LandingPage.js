@@ -125,8 +125,8 @@ export default function LandingPage() {
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.twitter.com/boredapeshow"
+                     
                     >
                       <i className="fab fa-twitter" />
                     </Button>
@@ -342,7 +342,9 @@ export default function LandingPage() {
                           </Col>
                           </Col>
                         <Col >
-                          <img size="100%"
+                          <img 
+                              
+                                width="100%"
                             alt="ghosttrapper"
                             className="ghost"
                             src= {require("assets/img/Ghost.png")}
