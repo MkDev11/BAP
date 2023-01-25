@@ -30,7 +30,7 @@
 }
 
 :root {
-  --blue: #5e72e4;
+  --blue: #26142a;
   --indigo: #5603ad;
   --purple: #8965e0;
   --pink: #f3a4b5;
@@ -53,7 +53,7 @@
   --danger: #fd5d93;
   --light: #adb5bd;
   --dark: #212529;
-  --default: #344675;
+  --default: #26142a;
   --white: #ffffff;
   --neutral: #ffffff;
   --darker: black;
@@ -103,7 +103,7 @@ body {
   line-height: 1.5;
   color: #525f7f;
   text-align: left;
-  background-color: #171941;
+  background-color: #26142a;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -122,12 +122,12 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
+  margin-top: 2px;
   margin-bottom: 0.5rem;
 }
 
 p {
-  margin-top: 0;
+  margin-top: 2px;
   margin-bottom: 1rem;
 }
 
@@ -18630,9 +18630,10 @@ textarea.form-control:active {
 
 .landing-page {
   overflow-x: hidden;
+  
 }
 .landing-page .page-header::after {
-  background: radial-gradient(ellipse at top right, #292d61 23%, #171941 65%);
+  background: radial-gradient(ellipse at top right, #26142a 23%, #26142a  65%);
   position: absolute;
   height: 100vh;
   width: 100%;

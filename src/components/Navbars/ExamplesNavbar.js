@@ -70,7 +70,14 @@ export default function ExamplesNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
-            <span>BAP• </span>
+            <img
+                            alt="ghosttrapper"
+                            className="ghost"
+                            width="40px"
+                            height="40px"
+                            src= {require("assets/img/BAP-Logo.png")}
+                          
+                       />
             Bored Ape Productions
           </NavbarBrand>
 
