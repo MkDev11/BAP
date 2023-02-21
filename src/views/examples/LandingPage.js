@@ -261,7 +261,7 @@ export default function LandingPage() {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path4.png")}
+            src={require("assets/img/path3.png")}
           />
           <img
             alt="..."
@@ -563,7 +563,7 @@ export default function LandingPage() {
           <img
             alt="..."
             className="path"
-            src={require("assets/img/path5.png")}
+            src={require("assets/img/path55.png")}
           />
           <Container>
             <Row className="row-grid justify-content-between">

@@ -156,26 +156,27 @@
   .section:first-of-type {
     .path {
       left: -110px;
-      max-width: 60%;
+      max-width: 100%;
       top: -50px;
-      opacity:0.025;
+      opacity:0.5;
     }
   }
   .section:nth-of-type(2) {
 
     .path {
       left: auto;
-      right: -250px;
-      max-width: 70%;
-      top: 0;
+      right: 138px;
+      max-width: 100%;
+      top: 1654;
+      opacity: .2;
     }
     .path2 {
       position: absolute;
-      opacity: 0.02;
+      opacity: 0.25;
       right: auto;
-      left: 420px;
-      max-width: 10%;
-      top: 420px;
+      left: -155px;
+      max-width: 150%;
+      top: 250px;
     }
 
     .path3 {
@@ -193,8 +194,9 @@
     .path {
       right: auto;
       left: 50px;
-      max-width: 45%;
-      top: 60px;
+      max-width: 100%;
+      top: 392px;
+      opacity: .2;
     }
   }
   .section:nth-of-type(4) {
