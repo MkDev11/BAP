@@ -129,15 +129,17 @@ export default function LandingPage() {
                 </div>
                 </Col>
                 </Row>
-               <Col  className="justify-content-between align-items-center" >
+                </div> 
+                <div className="content-center-2">
+               <Col  className="justify-content-between align-items-center content-center-2" >
                 <img
                   alt="..."
-                  height="500"
+                  height="200"
                   className=" justify-content-between img-center rounded-circle shadow-lg"
                   src={require("assets/img/GhostApeshow.png")}
                 />
                </Col>
-              </div> 
+               </div> 
           
         </div>
         <section className="section section-lg">
