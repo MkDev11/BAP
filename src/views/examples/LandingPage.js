@@ -594,9 +594,8 @@ export default function LandingPage() {
                         <div className="ml-3">
                           <h6> NIFTYSAFE:</h6><p> An initiative that specializes in protecting decentralized finance (DeFi) projects
                              and blockchain-based applications from security threats. We offer a range of services, including auditing,
-                              vulnerability assessments, and penetration testing, to identify and mitigate potential risks to their clients' 
-                              systems. NIFTSAFE also provides security guidance and training to help clients implement best practices for secure
-                               development and deployment.  </p>                         
+                              vulnerability assessments, and penetration testing, to identify and mitigate potential risks to our clients' 
+                              systems. </p>                         
                         </div>
                       </div>
                     </li>
@@ -607,9 +606,9 @@ export default function LandingPage() {
                         </div>
                         <div className="ml-3">
                           <h6>Bored Ape Mobility Program (B.U.M.P): </h6><p>An initiative that aims to address economic inequality and lack of representation in the art and
-                             digital asset world. The program allows for qualified individuals from underrepresented
+                             digital asset world. This program allows for qualified individuals from underrepresented
                               communities a pathway to earn their way to owning a coveted Bored Ape Yacht Club NFT. 
-                               The success of the program will benefit not only the participants but also the broader art and 
+                               The success of this program will benefit not only the participants but also the broader art and 
                                digital asset community. </p>
                         </div>
                       </div>
