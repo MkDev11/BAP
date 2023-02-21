@@ -120,8 +120,8 @@ export default function LandingPage() {
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://discord.gg/apb4cURFpW"
+                      
                     >
                       <i className="fab fa-discord" />
                     </Button>
@@ -359,7 +359,8 @@ export default function LandingPage() {
                             <strong>Experience:</strong> 7 Years
                           </div>
                           <div className="description">
-                            MissBayc 
+                            MissBayc                                                                                                                              
+                                                                           
                           </div>
                           <div className="category">
                             <a
