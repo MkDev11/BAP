@@ -101,7 +101,7 @@
     }
 }
 .landing-page {
-  overflow-x: hidden;background: linear-gradient(to bottom right, 	 #140101 23%, #1c1b1b 65%, #000000 100%,) !important;
+  overflow-x: hidden;background: linear-gradient(to bottom right, 	 #140101 23%, #1c1b1b 65%, #000000 100%) !important;
   
   .page-header {
 
@@ -114,9 +114,9 @@
       opacity: .5;
     }
     .path {
-      max-width: 65%;
+      opacity: .4;
       right: 0;
-      top: 30px;
+      top: 0px;
     }
 
     .path2 {
@@ -131,6 +131,7 @@
       top: 50%;
       right: 18%;
       max-height: 200px;
+      opacity:0.004 ;
     }
 
     .wave {
@@ -157,6 +158,7 @@
       left: -110px;
       max-width: 60%;
       top: -50px;
+      opacity:0.025;
     }
   }
   .section:nth-of-type(2) {

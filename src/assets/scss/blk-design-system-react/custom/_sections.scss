@@ -552,7 +552,9 @@
   .path{
     width: 55%;
   }
-
+.ghost{
+ position: absolute;   
+}
   .container .col-sm-6 img{
     border: 1px solid $primary;
   }

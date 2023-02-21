@@ -67,20 +67,13 @@ export default function LandingPage() {
             className="path2"
             src={require("assets/img/path2.png")}
           />
+         
+
           <img
             alt="..."
-            className="shapes triangle"
-            src={require("assets/img/OnAir.png")}
-          />
-          <img
-            alt="..."
-            className="shapes wave"
-            src={require("assets/img/waves.png")}
-          />
-          <img
-            alt="..."
+            
             className="shapes squares"
-            src={require("assets/img/patrat.png")}
+            src={require("assets/img/OnAir.png")}
           />
           <img
             alt="..."
@@ -330,7 +323,7 @@ export default function LandingPage() {
                           </Col>
                         <Col >
                           <img 
-                              
+                                height="auto"
                                 width="100%"
                             alt="ghosttrapper"
                             className="ghost"
@@ -551,9 +544,21 @@ export default function LandingPage() {
               
               
          </Container>
-      
+
 
         </section>
+        <Container md={15}>
+        <img
+            alt="..."
+            width="600"
+            height="50"
+            margin-left= "auto"
+            margin-right= "auto"
+         
+            className="shapes wave image-center"
+            src={require("assets/img/waves.png")}
+          />
+     </Container>
         <section className="section section-lg section-safe">
           <img
             alt="..."
@@ -573,6 +578,7 @@ export default function LandingPage() {
 
               
               </Col>
+          
               <Col md="6">
                 <div className="px-md-5 align-items-center">
                   <hr className="line-success line-center" />
