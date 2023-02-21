@@ -35,13 +35,21 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BAP •</h1>
+            <h1 className="title">
+            <img
+                            alt="BAP"
+                            className="bap"
+                            width="100px"
+                            height="100px"
+                            src= {require("assets/img/logo_o.png")}
+                          
+                       /></h1>
           </Col>
           <Col md="3">
             <Nav>
               <NavItem>
                 <NavLink to="/" tag={Link}>
-                  Home
+                 
                 </NavLink>
               </NavItem>
 
@@ -51,7 +59,7 @@ export default function Footer() {
             <Nav>
               <NavItem>
                 <NavLink href="#pablo">
-                  Contact Us
+                  
                 </NavLink>
               </NavItem>
 

@@ -142,16 +142,7 @@ export default function ExamplesNavbar() {
               </NavLink>
             </NavItem>
 
-            <NavItem>
-              <Button
-                className="nav-link d-none d-lg-block"
-                color="primary"
-                target="_blank"
-                href=""
-              >
-                <i className="tim-icons icon-spaceship" /> Sign Up
-              </Button>
-            </NavItem>
+
           
 
           </Nav>

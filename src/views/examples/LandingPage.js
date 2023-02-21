@@ -125,14 +125,6 @@ export default function LandingPage() {
                     >
                       <i className="fab fa-discord" />
                     </Button>
-                    <Button
-                      className="btn-icon btn-simple btn-round btn-neutral"
-                      color="default"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-youtube" />
-                    </Button>
                   </div>
                 </div>
                 </Col>
@@ -180,7 +172,7 @@ export default function LandingPage() {
                       </Card>
                     </Col>
                     <Col className="px-2 py-2" lg="6" sm="12">
-                      <Card className="card-stats upper bg-default">
+                      <Card className="card-stats upper">
                         <CardBody>
                           <Row>
                             <Col md="4" xs="5">
@@ -258,7 +250,7 @@ export default function LandingPage() {
                     </p>
                     <br />
                     <p>
-                        - Vetting Projects, Projects Founders. <br />
+                       -Vetting Projects, Projects Founders. <br />
                        -Provide Project Security services. <br />
                        -Providing Reliable trackable marketing services <br />
                     </p>
@@ -300,7 +292,7 @@ export default function LandingPage() {
                 </Col>
               </Row>
               <Row>
-               <div className="carousel-team carousel slide">
+               <div className="carousel-team carousel slide ">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <Container>
@@ -315,16 +307,19 @@ export default function LandingPage() {
                               <strong>Experience:</strong> 10 Years
                             </div>
                             <div className="description">
-                            Web3 Enthusiast & 10 year Vet, NFT collector,
-                             BAYC Maxi, Cannabis Lover & Advocate,
-                              Inclusivity Consultant & Master of today being a GREATDAY!
+                            Ghosttrapper, a Web3 enthusiast and 10-year veteran, is a leading voice in the world of blockchain and cryptocurrency.
+                             As an NFT collector and BAYC Maxi, Ghosttrapper has a deep understanding of the emerging trends in the digital asset space.
+                              Beyond the blockchain world, Ghosttrapper is a passionate cannabis lover and advocate, promoting the benefits of this healing
+                               plant. As an inclusivity consultant, Ghosttrapper strives to make the world of Web3 a more welcoming and inclusive space for 
+                               all. His unique combination of expertise and passion make Ghosttrapper a sought-after commentator and advisor, inspiring others
+                                to explore the endless possibilities of the Web3 era.
                             </div>
-                            <div className="footer">
+                            <div className="category">
                               <a
-                                href="#pablo"
-                                className="btn-icon btn-round btn btn-twitter"
+                                href="https://twitter.com/GhosttrapperUSA"
+                                className="btn-icon btn-round btn btn-twitter "
                               >
-                                <i className="fab fa-twitter"></i>
+                                <i className="fab fa-twitter align-items-center"></i>
                               </a>
                             </div>
                           </div>
@@ -361,15 +356,14 @@ export default function LandingPage() {
                         <div className="wrapper">
                           <div className="category">
                             <strong>Position:</strong> Council Members<br />
-                            <strong>Experience:</strong> 10 Years
+                            <strong>Experience:</strong> 7 Years
                           </div>
                           <div className="description">
-                            MissBayc.....
-                            .......
+                            MissBayc 
                           </div>
-                          <div className="footer">
+                          <div className="category">
                             <a
-                              href="#pablo"
+                              href="https://twitter.com/IamTequilaaa"
                               className="btn-icon btn-round btn btn-twitter"
                             >
                               <i className="fab fa-twitter"></i>
@@ -382,21 +376,25 @@ export default function LandingPage() {
                       
                        <Row>
                         <Col >
-                          <h1 className="title">Cqpon3</h1>
+                          <h1 className="title">BoredLawyer.eth</h1>
                         
                         <Col >
                           <div className="wrapper">
                             <div className="category">
                               <strong>Position:</strong> Council Member & Legal <br />
-                              <strong>Experience:</strong> 10 Years
+                              <strong>Experience:</strong> 8 Years
                             </div>
                             <div className="description">
-                              Cqpon3.....
-                              .......
+                              Cqpon3 is a Web3 Lawyer that specializes in advising clients on the legal implications of blockchain, cryptocurrency, 
+                               and other emerging technologies. With a deep understanding of the Web3 landscape, 
+                               Cqpon3 is able to provide expert guidance on regulatory compliance, contract negotiation, 
+                               and dispute resolution. They have a passion for staying up-to-date on the latest legal developments
+                                and emerging trends in the industry, ensuring that their clients are always well-informed and 
+                                protected. With a strong commitment to innovation and collaboration.
                             </div>
-                            <div className="footer">
+                            <div className="category">
                               <a
-                                href="#pablo"
+                                href="https://twitter.com/cqpon3"
                                 className="btn-icon btn-round btn btn-twitter"
                               >
                                 <i className="fab fa-twitter"></i>
@@ -432,16 +430,19 @@ export default function LandingPage() {
 
                         <div className="wrapper">
                           <div className="category">
-                            <strong>Position:</strong> Council Member & Graphic Artist <br />
-                            <strong>Experience:</strong> 10 Years
+                            <strong>Position:</strong> Coffee Guru and News Host <br />
+                            <strong>Experience:</strong> 3 Years
                           </div>
                           <div className="description">
-                            Bubble Queen .....
-                            .......
+                          BubbleQueen is a Coffee Guru and Web3 Host with a passion for exploring the intersection of technology and coffee.
+                           With a wealth of knowledge and experience in both fields, BubbleQueen is becoming a leading voice in the Web3 community, while
+                            advocating for the use of emerging technologies to revolutionize the coffee industry. As a host,
+                             BubbleQueen shares their expertise on everything from coffee brewing and roasting techniques to blockchain-based supply 
+                             chain management systems and NFTs for rare coffee beans. 
                           </div>
-                          <div className="footer">
+                          <div className="category">
                             <a
-                              href="#pablo"
+                              href="https://twitter.com/Bubbles__Queen"
                               className="btn-icon btn-round btn btn-twitter"
                             >
                               <i className="fab fa-twitter"></i>
@@ -459,15 +460,19 @@ export default function LandingPage() {
                           <div className="wrapper">
                             <div className="category">
                               <strong>Position:</strong> Social Media <br />
-                              <strong>Experience:</strong> 10 Years
+                              <strong>Experience:</strong> 4 Years
                             </div>
                             <div className="description">
-                              Sadica .....
-                              .......
+                            Sadica is a Latina social media visionary with a passion for harnessing the power of social media to promote positive change 
+                            and drive meaningful engagement. With a background in social media marketing and content creation, 
+                            Sadica brings a unique perspective and understanding of the Latinx community and its evolving relationship with social media. 
+                            As an influencer and thought leader, Sadica uses her platform to inspire others to use social media as a tool for social justice 
+                            and empowerment, while highlighting the diverse voices and experiences within the Latinx community. With a commitment to inclusivity 
+                            and representation, Sadica is dedicated to helping others amplify their voices and share their stories with the world.
                             </div>
-                            <div className="footer">
+                            <div className="category">
                               <a
-                                href="#pablo"
+                                href="https://twitter.com/Anniemariez"
                                 className="btn-icon btn-round btn btn-twitter"
                               >
                                 <i className="fab fa-twitter"></i>
@@ -499,7 +504,7 @@ export default function LandingPage() {
                        
                           </Col>
                         <Col >
-                        <h1 className="title">Mukubass</h1>
+                        <h1 className="title">Mkdev</h1>
                         <Col >
 
                         <div className="wrapper">
@@ -508,12 +513,15 @@ export default function LandingPage() {
                             <strong>Experience:</strong> 10 Years
                           </div>
                           <div className="description">
-                            Mukubass .....
-                            .......
+                          Mkdev is a experienced cybersecurity professional with over 9 years of cumulative experience in functional, technical,
+                           and managerial roles in the government, security industries. With a strong analytical and technical skillset in 
+                           computer network defense, offense operations, software engineering, and cloud infrastructure, Mkdev is familiar with a range 
+                           of network security technologies and frameworks. Mkdev serves as a technical resource providing guidance and advice to project
+                            team members on security, technology, and designing effective solutions.
                           </div>
-                          <div className="footer">
+                          <div className="category">
                             <a
-                              href="#pablo"
+                              href="https://twitter.com/mukubass"
                               className="btn-icon btn-round btn btn-twitter"
                             >
                               <i className="fab fa-twitter"></i>
@@ -573,7 +581,7 @@ export default function LandingPage() {
                           <i className="tim-icons icon-single-02" />
                         </div>
                         <div className="ml-3">
-                          <h6>Web3 Coffee and News : A latinx women-led news show that dives into all things Crypto and Web3 </h6>
+                          <h6>Web3 Coffee and News: </h6><p> A latinx women-led news show that dives into all things Crypto and Web3 </p>
                         </div>
                         
                       </div>
@@ -583,7 +591,11 @@ export default function LandingPage() {
                           <i className="tim-icons icon-vector" />
                         </div>
                         <div className="ml-3">
-                          <h6> NIFTYSAFE:  </h6>                         
+                          <h6> NIFTYSAFE:</h6><p> An initiative that specializes in protecting decentralized finance (DeFi) projects
+                             and blockchain-based applications from security threats. We offer a range of services, including auditing,
+                              vulnerability assessments, and penetration testing, to identify and mitigate potential risks to their clients' 
+                              systems. NIFTSAFE also provides security guidance and training to help clients implement best practices for secure
+                               development and deployment.  </p>                         
                         </div>
                       </div>
                     </li>
@@ -593,7 +605,11 @@ export default function LandingPage() {
                           <i className="tim-icons icon-tap-02" />
                         </div>
                         <div className="ml-3">
-                          <h6>Bored Ape Mobility Program: </h6>
+                          <h6>Bored Ape Mobility Program (B.U.M.P): </h6><p>An initiative that aims to address economic inequality and lack of representation in the art and
+                             digital asset world. The program allows for qualified individuals from underrepresented
+                              communities a pathway to earn their way to owning a coveted Bored Ape Yacht Club NFT. 
+                               The success of the program will benefit not only the participants but also the broader art and 
+                               digital asset community. </p>
                         </div>
                       </div>
                     </li>
@@ -679,12 +695,12 @@ export default function LandingPage() {
                       </Row>
                       <Button
                         className="btn-round float-right"
-                        color="primary"
+                        background-image= "linear-gradient (to bottom left, #706f6f, #4e0000, #403b3b)"
                         data-placement="right"
                         id="tooltip341148792"
                         type="button"
                       >
-                        Send text
+                        Contact Us
                       </Button>
                       <UncontrolledTooltip
                         delay={0}

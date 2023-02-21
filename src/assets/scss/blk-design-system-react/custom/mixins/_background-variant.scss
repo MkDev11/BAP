@@ -6,13 +6,13 @@
     a#{$parent},
     button#{$parent} {
         @include hover-focus {
-            background-color: darken($color, 10%) !important;
+            background-color: darken($color, 1%) !important;
         }
     }
 }
 
 @mixin bg-gradient-variant($parent, $color) {
     #{$parent} {
-        background: linear-gradient(87deg, $color 0, adjust-hue($color, 25%) 100%) !important;
+        background: linear-gradient(108deg, $color 0, adjust-hue($color, 25%) 100%) !important;
     }
 }

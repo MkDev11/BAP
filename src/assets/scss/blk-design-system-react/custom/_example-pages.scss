@@ -101,12 +101,12 @@
     }
 }
 .landing-page {
-  overflow-x: hidden;
-
+  overflow-x: hidden;background: linear-gradient(to bottom right, 	 #140101 23%, #1c1b1b 65%, #000000 100%,) !important;
+  
   .page-header {
 
     &::after {
-      background: radial-gradient(ellipse at top right, #3b1212 23%, #3f3c3c 65%);
+      
       // content: "";
       position: absolute;
       height: 100vh;
