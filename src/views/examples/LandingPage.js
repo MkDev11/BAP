@@ -309,12 +309,12 @@ export default function LandingPage() {
                               <strong>Experience:</strong> 10 Years
                             </div>
                             <div className="description">
-                            Ghosttrapper, a Web3 enthusiast and 10-year veteran, is a leading voice in the world of blockchain and cryptocurrency.
-                             As an NFT collector and BAYC Maxi, Ghosttrapper has a deep understanding of the emerging trends in the digital asset space.
-                              Beyond the blockchain world, Ghosttrapper is a passionate cannabis lover and advocate, promoting the benefits of this healing
-                               plant. As an inclusivity consultant, Ghosttrapper strives to make the world of Web3 a more welcoming and inclusive space for 
+                            Ghosttrapper, a Web3 enthusiast and 10-year veteran, is a leading voice in the Web3.0 world.
+                             A NFT collector and BAYC Maxi, Ghosttrapper has a deep understanding of the emerging trends in the space.
+                              Beyond the Web3.0 world, Ghosttrapper is a passionate cannabis lover and advocate, promoting the benefits of it Homeopathic benefits.
+                               As an inclusivity consultant, Ghosttrapper strives to make the world of Web3 a more welcoming and inclusive space for 
                                all. His unique combination of expertise and passion make Ghosttrapper a sought-after commentator and advisor, inspiring others
-                                to explore the endless possibilities of the Web3 era.
+                                to explore the endless possibilities of Web3 .
                             </div>
                             <div className="category">
                               <a
@@ -388,12 +388,12 @@ export default function LandingPage() {
                               <strong>Experience:</strong> 8 Years
                             </div>
                             <div className="description">
-                              Cqpon3 is a Web3 Lawyer that specializes in advising clients on the legal implications of blockchain, cryptocurrency, 
+                              Cqpon3 is a Web3 Lawyer who specializes in advising clients on the legal implications of blockchain, cryptocurrency, 
                                and other emerging technologies. With a deep understanding of the Web3 landscape, 
                                Cqpon3 is able to provide expert guidance on regulatory compliance, contract negotiation, 
-                               and dispute resolution. They have a passion for staying up-to-date on the latest legal developments
-                                and emerging trends in the industry, ensuring that their clients are always well-informed and 
-                                protected. With a strong commitment to innovation and collaboration.
+                               and dispute resolution. He's passionate about staying up-to-date on the latest legal developments
+                                and emerging trends in the industry, ensuring that his clients are always well-informed and 
+                                protected.
                             </div>
                             <div className="category">
                               <a
@@ -437,7 +437,7 @@ export default function LandingPage() {
                             <strong>Experience:</strong> 3 Years
                           </div>
                           <div className="description">
-                          BubbleQueen is a Coffee Guru and Web3 Host with a passion for exploring the intersection of technology and coffee.
+                          BubbleQueen is a Coffee Guru and News Host with a passion for exploring the intersection of technology and coffee.
                            With a wealth of knowledge and experience in both fields, BubbleQueen is becoming a leading voice in the Web3 community, while
                             advocating for the use of emerging technologies to revolutionize the coffee industry. As a host,
                              BubbleQueen shares their expertise on everything from coffee brewing and roasting techniques to blockchain-based supply 
