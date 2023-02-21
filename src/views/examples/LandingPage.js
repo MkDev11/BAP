@@ -437,7 +437,7 @@ export default function LandingPage() {
                             <strong>Experience:</strong> 3 Years
                           </div>
                           <div className="description">
-                          BubbleQueen is a Coffee Guru and News Host with a passion for exploring the intersection of technology and coffee.
+                           A Coffee Guru and News Host with a passion for exploring the intersection of technology and coffee.
                            With a wealth of knowledge and experience in both fields, BubbleQueen is becoming a leading voice in the Web3 community, while
                             advocating for the use of emerging technologies to revolutionize the coffee industry. As a host,
                              BubbleQueen shares their expertise on everything from coffee brewing and roasting techniques to blockchain-based supply 
@@ -466,7 +466,7 @@ export default function LandingPage() {
                               <strong>Experience:</strong> 4 Years
                             </div>
                             <div className="description">
-                            Sadica is a Latina social media visionary with a passion for harnessing the power of social media to promote positive change 
+                            A social media visionary with a passion for harnessing the power of social media to promote positive change 
                             and drive meaningful engagement. With a background in social media marketing and content creation, 
                             Sadica brings a unique perspective and understanding of the Latinx community and its evolving relationship with social media. 
                             As an influencer and thought leader, Sadica uses her platform to inspire others to use social media as a tool for social justice 
@@ -516,7 +516,7 @@ export default function LandingPage() {
                             <strong>Experience:</strong> 10 Years
                           </div>
                           <div className="description">
-                          Mkdev is a experienced cybersecurity professional with over 9 years of cumulative experience in functional, technical,
+                          A experienced cybersecurity professional with over 9 years of cumulative experience in functional, technical,
                            and managerial roles in the government, security industries. With a strong analytical and technical skillset in 
                            computer network defense, offense operations, software engineering, and cloud infrastructure, Mkdev is familiar with a range 
                            of network security technologies and frameworks. Mkdev serves as a technical resource providing guidance and advice to project
@@ -596,8 +596,7 @@ export default function LandingPage() {
                         <div className="ml-3">
                           <h6> NIFTYSAFE:</h6><p> An initiative that specializes in protecting decentralized finance (DeFi) projects
                              and blockchain-based applications from security threats. We offer a range of services, including auditing,
-                              vulnerability assessments, and penetration testing, to identify and mitigate potential risks to our clients' 
-                              systems. </p>                         
+                              vulnerability assessments, and penetration testing, to identify and mitigate potential risks to projectss. </p>                         
                         </div>
                       </div>
                     </li>
@@ -607,8 +606,7 @@ export default function LandingPage() {
                           <i className="tim-icons icon-tap-02" />
                         </div>
                         <div className="ml-3">
-                          <h6>Bored Ape Mobility Program (B.U.M.P): </h6><p>An initiative that aims to address economic inequality and lack of representation in the art and
-                             digital asset world. This program allows for qualified individuals from underrepresented
+                          <h6>Bored Ape Mobility Program (B.U.M.P): </h6><p>An initiative that allows for qualified individuals from underrepresented
                               communities a pathway to earn their way to owning a coveted Bored Ape Yacht Club NFT. 
                                The success of this program will benefit not only the participants but also the broader art and 
                                digital asset community. </p>
@@ -631,7 +629,7 @@ export default function LandingPage() {
                 <h1 className="profile-title text-center">Projects</h1>
                 
                 <p className="profile-description text-left">
-                But it's not just about the money - "The Bored Ape Show" also showcases
+                It's not just about the money - "The Bored Ape Show" also showcases
                  the human stories behind the tech. 
                  From college students with big ideas to experienced professionals looking to revolutionize their industry, the show follows the entrepreneurs as they navigate the ups and downs of starting a crypto/defi/nft project.
                 </p>
