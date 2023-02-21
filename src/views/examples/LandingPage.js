@@ -300,7 +300,12 @@ export default function LandingPage() {
                     <Container>
                     <Row>
                         <Col >
-                          <h1 className="title">Ghosttapper</h1>
+                          <h1 className="title">Ghosttapper             <a
+                                href="https://twitter.com/GhosttrapperUSA"
+                                className="btn-icon btn-round btn btn-twitter "
+                              >
+                                <i className="fab fa-twitter align-items-center"></i>
+                              </a> </h1>
                         
                         <Col >
                           <div className="wrapper">
@@ -317,15 +322,11 @@ export default function LandingPage() {
                                 to explore the endless possibilities of Web3 .
                             </div>
                             <div className="category">
-                              <a
-                                href="https://twitter.com/GhosttrapperUSA"
-                                className="btn-icon btn-round btn btn-twitter "
-                              >
-                                <i className="fab fa-twitter align-items-center"></i>
-                              </a>
+                  
                             </div>
-                          </div>
+                            </div>
                           </Col>
+                          
                           </Col>
                         <Col >
                           <img 
@@ -337,8 +338,11 @@ export default function LandingPage() {
                           
                           />
                         </Col>
+                        
 
                         </Row>
+                        
+                        
                             <Row>
                             <Col >
                         
@@ -352,7 +356,12 @@ export default function LandingPage() {
                        
                           </Col>
                         <Col >
-                        <h1 className="title">MissBayc</h1>
+                        <h1 className="title">MissBayc                             <a
+                              href="https://twitter.com/IamTequilaaa"
+                              className="btn-icon btn-round btn btn-twitter"
+                            >
+                              <i className="fab fa-twitter"></i>
+                            </a></h1>
                         <Col >
 
                         <div className="wrapper">
@@ -365,12 +374,7 @@ export default function LandingPage() {
                                                                            
                           </div>
                           <div className="category">
-                            <a
-                              href="https://twitter.com/IamTequilaaa"
-                              className="btn-icon btn-round btn btn-twitter"
-                            >
-                              <i className="fab fa-twitter"></i>
-                            </a>
+
                           </div>
                         </div>
                         </Col>
@@ -379,7 +383,12 @@ export default function LandingPage() {
                       
                        <Row>
                         <Col >
-                          <h1 className="title">BoredLawyer.eth</h1>
+                          <h1 className="title">BoredLawyer.eth                               <a
+                                href="https://twitter.com/cqpon3"
+                                className="btn-icon btn-round btn btn-twitter"
+                              >
+                                <i className="fab fa-twitter"></i>
+                              </a></h1>
                         
                         <Col >
                           <div className="wrapper">
@@ -396,12 +405,7 @@ export default function LandingPage() {
                                 protected.
                             </div>
                             <div className="category">
-                              <a
-                                href="https://twitter.com/cqpon3"
-                                className="btn-icon btn-round btn btn-twitter"
-                              >
-                                <i className="fab fa-twitter"></i>
-                              </a>
+
                             </div>
                           </div>
                           </Col>
@@ -428,7 +432,12 @@ export default function LandingPage() {
                        
                           </Col>
                         <Col >
-                        <h1 className="title">Bubble Queen</h1>
+                        <h1 className="title">Bubble Queen                             <a
+                              href="https://twitter.com/Bubbles__Queen"
+                              className="btn-icon btn-round btn btn-twitter"
+                            >
+                              <i className="fab fa-twitter"></i>
+                            </a></h1>
                         <Col >
 
                         <div className="wrapper">
@@ -444,12 +453,7 @@ export default function LandingPage() {
                              chain management systems and NFTs for rare coffee beans. 
                           </div>
                           <div className="category">
-                            <a
-                              href="https://twitter.com/Bubbles__Queen"
-                              className="btn-icon btn-round btn btn-twitter"
-                            >
-                              <i className="fab fa-twitter"></i>
-                            </a>
+
                           </div>
                         </div>
                         </Col>
@@ -457,7 +461,12 @@ export default function LandingPage() {
                         </Row>
                        <Row>
                         <Col >
-                          <h1 className="title">Sadica</h1>
+                          <h1 className="title">Sadica                               <a
+                                href="https://twitter.com/Anniemariez"
+                                className="btn-icon btn-round btn btn-twitter"
+                              >
+                                <i className="fab fa-twitter"></i>
+                              </a></h1>
                         
                         <Col >
                           <div className="wrapper">
@@ -470,16 +479,10 @@ export default function LandingPage() {
                             and drive meaningful engagement. With a background in social media marketing and content creation, 
                             Sadica brings a unique perspective and understanding of the Latinx community and its evolving relationship with social media. 
                             As an influencer and thought leader, Sadica uses her platform to inspire others to use social media as a tool for social justice 
-                            and empowerment, while highlighting the diverse voices and experiences within the Latinx community. With a commitment to inclusivity 
-                            and representation, Sadica is dedicated to helping others amplify their voices and share their stories with the world.
+                            and empowerment, while highlighting the diverse voices and experiences within the Latinx community
                             </div>
                             <div className="category">
-                              <a
-                                href="https://twitter.com/Anniemariez"
-                                className="btn-icon btn-round btn btn-twitter"
-                              >
-                                <i className="fab fa-twitter"></i>
-                              </a>
+
                             </div>
                           </div>
                           </Col>
@@ -507,7 +510,12 @@ export default function LandingPage() {
                        
                           </Col>
                         <Col >
-                        <h1 className="title">Mkdev</h1>
+                        <h1 className="title">Mkdev                             <a
+                              href="https://twitter.com/mukubass"
+                              className="btn-icon btn-round btn btn-twitter"
+                            >
+                              <i className="fab fa-twitter"></i>
+                            </a></h1>
                         <Col >
 
                         <div className="wrapper">
@@ -523,12 +531,7 @@ export default function LandingPage() {
                             team members on security, technology, and designing effective solutions.
                           </div>
                           <div className="category">
-                            <a
-                              href="https://twitter.com/mukubass"
-                              className="btn-icon btn-round btn btn-twitter"
-                            >
-                              <i className="fab fa-twitter"></i>
-                            </a>
+
                           </div>
                         </div>
                         </Col>
