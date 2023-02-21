@@ -39,7 +39,7 @@ export default function Footer() {
             <img
                             alt="BAP"
                             className="bap"
-                            width="1850px"
+                            width="150px"
                             height="150px"
                             src= {require("assets/img/logo_o.png")}
                           
