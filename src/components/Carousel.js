@@ -94,38 +94,28 @@ function TeamCarousel() {
         onExited={() => setAnimating(false)}
         onExiting={() => setAnimating(true)}
       >
-        <Row className='align-items-center' >
-          <Col md="6" >
-		  <h1 className="title">{item.caption} <a href={item.twitter} className="btn-icon btn-round btn btn-twitter">
-                    <i className="fab fa-twitter align-items-center"></i>
-                  </a></h1>
+        <Row className='align-items-center ' mx="auto">
+          <Col md='6'>
+            <h1 className='title text-center'>
+              {item.caption}{' '}
+              <a href={item.twitter} className='btn-icon btn-round btn btn-twitter'>
+                <i className='fab fa-twitter align-items-center'></i>
+              </a>
+            </h1>
             <img src={item.src} alt={item.altText} />
           </Col>
-		  <Col><br></br></Col>
-          <Col md="6" className='text-align-center ' style={{left: -40.5}}>
-		  <div className="wrapper">
-            <div className="carousel-caption position-relative">
- 
-              
-              
-                <p className="category">
+          <Col md='6' className='text-left'>
+            <div className='wrapper'>
+              <div className='carousel-caption position-relative'>
+                <p className='category'>
                   <strong>Position:</strong> {item.position} <br />
-                  <strong>Experience:</strong> {item.experience} 
-                
-				</p>
-				
-				
-                <p className="description">
-                  {item.description}
+                  <strong>Experience:</strong> {item.experience}
                 </p>
-                
-
-                
-             
+                <p className='description'>{item.description}</p>
+              </div>
             </div>
-			</div>
           </Col>
-        </Row>
+		  </Row>
       </CarouselItem>
     );
   });
@@ -136,7 +126,7 @@ function TeamCarousel() {
     }}>
     
       <Carousel previous={previousButton} next={nextButton}
-        activeIndex={activeIndex}>
+        activeIndex={activeIndex} className="mx-auto">
         {carouselItemData}
         <CarouselControl directionText="Prev"
           direction="prev" onClickHandler={previousButton} />

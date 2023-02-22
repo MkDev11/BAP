@@ -267,7 +267,7 @@ export default function LandingPage() {
 
 
           <Row>
-            <Col className="ml-auto mr-auto text-center col-md-4">
+            <Col className="ml-auto mr-auto text-center col-md-6">
               <h2 className="title">About Us </h2>
               <h4 className="description">
                 In addition to providing funding for promising projects,
@@ -278,7 +278,7 @@ export default function LandingPage() {
             </Col>
           </Row>
           <Container>
-            <TeamCarousel >
+            <TeamCarousel className="align-items-center">
 
             </TeamCarousel>
 
@@ -402,7 +402,7 @@ export default function LandingPage() {
             <Col>
               <Card className="card-plain ">
                 <CardHeader>
-                  <h1 className="profile-title text-center">Contact</h1>
+                  <h1 className="profile-title text-center">Submit a Project</h1>
 
                 </CardHeader>
                 <CardBody>
@@ -425,7 +425,7 @@ export default function LandingPage() {
 
                       <Col md="6">
                         <FormGroup>
-                          <label>Company</label>
+                          <label>Project</label>
                           <Input placeholder="Bored Ape Show" type="text" />
                         </FormGroup>
                       </Col>
@@ -445,7 +445,7 @@ export default function LandingPage() {
                       id="tooltip341148792"
                       type="button"
                     >
-                      Contact Us
+                      Submit
                     </Button>
                     <UncontrolledTooltip
                       delay={0}
