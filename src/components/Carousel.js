@@ -25,8 +25,45 @@ function TeamCarousel() {
       altText: 'Ghosttapper slide',
       description: 'Ghosttrapper, a leading voice in the Web3.0 world, with 10 years of industry experience. Now a Web3 enthusiast, NFT collector, BAYC Maxi, cannabis advocate, and inclusivity consultant. He strives toward making the Web3 space more welcoming and inclusive for all. With a unique combination of expertise and passion, Ghosttrapper is a sought-after commentator and advisor, inspiring others to explore the possibilities of Web3.',
       position: 'Founder',
-      experience: '10 Years'
+      experience: '10 Years',
+	  twitter: 'https://twitter.com/GhosttrapperUSA'
     },
+	{
+		caption: 'Ghosttapper',
+		src: require("assets/img/Ghost.png"),
+		altText: 'Ghosttapper slide',
+		description: 'Ghosttrapper, a leading voice in the Web3.0 world, with 10 years of industry experience. Now a Web3 enthusiast, NFT collector, BAYC Maxi, cannabis advocate, and inclusivity consultant. He strives toward making the Web3 space more welcoming and inclusive for all. With a unique combination of expertise and passion, Ghosttrapper is a sought-after commentator and advisor, inspiring others to explore the possibilities of Web3.',
+		position: 'Founder',
+		experience: '10 Years',
+		twitter: 'https://twitter.com/GhosttrapperUSA'
+	  },
+	  {
+		caption: 'Ghosttapper',
+		src: require("assets/img/Ghost.png"),
+		altText: 'Ghosttapper slide',
+		description: 'Ghosttrapper, a leading voice in the Web3.0 world, with 10 years of industry experience. Now a Web3 enthusiast, NFT collector, BAYC Maxi, cannabis advocate, and inclusivity consultant. He strives toward making the Web3 space more welcoming and inclusive for all. With a unique combination of expertise and passion, Ghosttrapper is a sought-after commentator and advisor, inspiring others to explore the possibilities of Web3.',
+		position: 'Founder',
+		experience: '10 Years',
+		twitter: 'https://twitter.com/GhosttrapperUSA'
+	  },
+	  {
+		caption: 'Ghosttapper',
+		src: require("assets/img/Ghost.png"),
+		altText: 'Ghosttapper slide',
+		description: 'Ghosttrapper, a leading voice in the Web3.0 world, with 10 years of industry experience. Now a Web3 enthusiast, NFT collector, BAYC Maxi, cannabis advocate, and inclusivity consultant. He strives toward making the Web3 space more welcoming and inclusive for all. With a unique combination of expertise and passion, Ghosttrapper is a sought-after commentator and advisor, inspiring others to explore the possibilities of Web3.',
+		position: 'Founder',
+		experience: '10 Years',
+		twitter: 'https://twitter.com/GhosttrapperUSA'
+	  },
+	  {
+		caption: 'Ghosttapper',
+		src: require("assets/img/Ghost.png"),
+		altText: 'Ghosttapper slide',
+		description: 'Ghosttrapper, a leading voice in the Web3.0 world, with 10 years of industry experience. Now a Web3 enthusiast, NFT collector, BAYC Maxi, cannabis advocate, and inclusivity consultant. He strives toward making the Web3 space more welcoming and inclusive for all. With a unique combination of expertise and passion, Ghosttrapper is a sought-after commentator and advisor, inspiring others to explore the possibilities of Web3.',
+		position: 'Founder',
+		experience: '10 Years',
+		twitter: 'https://twitter.com/GhosttrapperUSA'
+	  },
     
   ];
 
@@ -58,23 +95,25 @@ function TeamCarousel() {
         onExiting={() => setAnimating(true)}
       >
         <Row className='align-items-center' >
-          <Col md="6" py="2">
+          <Col md="6" >
+		  <h1 className="title">{item.caption} <a href={item.twitter} className="btn-icon btn-round btn btn-twitter">
+                    <i className="fab fa-twitter align-items-center"></i>
+                  </a></h1>
             <img src={item.src} alt={item.altText} />
           </Col>
-          <Col md="6">
+		  <Col><br></br></Col>
+          <Col md="6" className='text-align-center ' style={{left: -40.5}}>
 		  <div className="wrapper">
             <div className="carousel-caption position-relative">
-
-              <h1 className="title">{item.caption} </h1>
+ 
+              
               
                 <p className="category">
                   <strong>Position:</strong> {item.position} <br />
                   <strong>Experience:</strong> {item.experience} 
                 
 				</p>
-				<a href="https://twitter.com/GhosttrapperUSA" className="btn-icon btn-round btn btn-twitter">
-                    <i className="fab fa-twitter align-items-center"></i>
-                  </a>
+				
 				
                 <p className="description">
                   {item.description}
