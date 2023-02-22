@@ -30,7 +30,7 @@ function Carousel() {
 	];
 
 	// Items array length
-	const itemLength = items.length - 1
+	const itemLength = items.length - 7
 
 	// Previous button for Carousel
 	const previousButton = () => {
