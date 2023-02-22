@@ -17,9 +17,9 @@ import {
   UncontrolledTooltip,
   CarouselItem
 } from "reactstrap";
-import Ghosttrapper from "components/caro/ghosttrapper.js";
 
-import CarouselControlNext from "components/CarouselControl.js";
+
+import TeamCarousel from "components/Carousel.js";
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Footer from "components/Footer/Footer.js";
@@ -43,25 +43,8 @@ const carouselItems = [
     caption: "DecentraDegens"
   }
 ];
-const carouselItemss = [
-  {
-    src: Ghosttrapper,
-    
-    altText: "Slide 1",
-    caption: "Friends in High Places"
-  },
-  {
-    
-  
-    altText: "Slide 2",
-    caption: "Galaxy Fight Club"
-  },
-  {
-    
-    altText: "Slide 3",
-    caption: "DecentraDegens"
-  }
-];
+
+
 
 export default function LandingPage() {
   React.useEffect(() => {
@@ -154,11 +137,11 @@ export default function LandingPage() {
               className="path"
               src={require("assets/img/path4.png")} />
             <Container>
-              <Row className="row-grid justify-content-between">
+              <Row className="row-grid justify-content-between margin-bottom-50">
                 <Col className="mt-lg-5" md="5">
                   <Row>
                     <Col className="px-2 py-2" lg="6" sm="12">
-                      <Card className="card-stats">
+                      <Card background-color="#121111" className="card-stats ">
                         <CardBody>
                           <Row>
                             <Col md="4" xs="5">
@@ -242,7 +225,7 @@ export default function LandingPage() {
                   </Row>
                 </Col>
                 <Col md="6">
-                  <div className="ml-auto mr-auto text-center col-md-8">
+                  <div className="ml-auto mr-auto text-center col-md-8 top-auto">
                     <h1>
                       Mission <br />
 
@@ -295,260 +278,12 @@ export default function LandingPage() {
             </Col>
           </Row>
           <Container>
+            <TeamCarousel className="container-fluid py-2">
 
-
-            <div className="container-fluid py-2">
-              <div className="row align-items-center">
-                <div className="col-auto">
-                  <a className="h1" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span>&lt;</span>
-                  </a>
-                </div>
-                <div className="col">
-                  <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                      <div className="carousel-item active">
-                        <div className="row align-items-center">
-                          <div className="col-md py-2">
-                            <div className="col-md-5">
-                              <img
-                                className="d-block-true img-fluid"
-                                height="auto"
-                                width="100%"
-                                alt="ghosttrapper"
-                                src={require("assets/img/Ghost.png").default} />
-                            </div>
-                            <div className="col-md-6">
-                              <h1 className="title">Ghosttapper</h1>
-                              <p className="wrapper">
-                                <p className="category">
-                                  <strong>Position:</strong> Founder <br />
-                                  <strong>Experience:</strong> 10 Years
-                                </p>
-                                <p className="description">
-                                  Ghosttrapper, a leading voice in the Web3.0 world, with 10 years of industry experience. Now a Web3 enthusiast,
-                                  NFT collector, BAYC Maxi, cannabis advocate, and inclusivity consultant. he strives toward making the Web3 space more welcoming and inclusive
-                                  for all. With a unique combination of expertise and passion, Ghosttrapper is a sought-after commentator
-                                  and advisor, inspiring others to explore the possibilities of Web3.
-                                </p>
-                                <button className="">
-                                  <a
-                                    href="https://twitter.com/GhosttrapperUSA"
-                                    className="btn-icon btn-round btn btn-twitter "
-                                  >
-                                    <i className="fab fa-twitter align-items-center"></i>
-                                  </a>
-                                </button>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="row justify-content-between align-items-center">
-                          <div className="col-md-5">
-                            <img
-                              className="d-block img-fluid"
-                              alt="Muka"
-                              size="100%"
-                              src={require("assets/img/missbayc.png").default} />
-                          </div>
-                          <div className="col-md-6">
-                            <h1 className="title">MissBayc</h1>
-                            <div className="wrapper">
-                              <div className="category">
-                                <strong>Position:</strong> Council Members<br />
-                                <strong>Experience:</strong> 7 Years
-                              </div>
-                              <div className="description">
-                                MissBayc
-                              </div>
-                              <div className="category">
-                                <a
-                                  href="https://twitter.com/IamTequilaaa"
-                                  className="btn-icon btn-round btn btn-twitter"
-                                >
-                                  <i className="fab fa-twitter"></i>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col">
-                 
-                            <div className="carousel-item ">
-                              <div className="row align-items-center">
-                                <div className="col-md py-2">
-                                  <div className="col-md-5">
-                                    <img
-                                      className="d-block img-fluid"
-                                      height="auto"
-                                      width="100%"
-                                      alt="ghosttrapper d-block img-fluid"
-                                      src={require("assets/img/Cqpone.png").default} />
-                                  </div>
-                                  <div className="col-md-6">
-                                    <h1 className="title">BoredLawyer.eth</h1>
-                                    <p className="wrapper">
-                                      <p className="category">
-                                        <strong>Position:</strong> Council Member & Legal <br />
-                                        <strong>Experience:</strong> 8 Years
-                                      </p>
-                                      <p className="description">
-                                        Cqpon3, a Web3 Lawyer specializing in advising on legal implications of blockchain, cryptocurrency,
-                                        and other emerging technologies. He offers expert guidance on regulatory compliance, contract negotiation,
-                                        and dispute resolution, staying up-to-date with the latest legal developments and emerging trends to ensure projects
-                                        are well-informed and protected.
-                                      </p>
-                                      <div className="category">
-                                        <a
-                                          href="https://twitter.com/cqpon3"
-                                          className="btn-icon btn-round btn btn-twitter"
-                                        >
-                                          <i className="fab fa-twitter"></i>
-                                        </a>
-                                      </div>
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="carousel-item">
-                              <div className="row justify-content-between align-items-center">
-                                <div className="col-md-5">
-                                  <img
-                                    className="d-block img-fluid"
-                                    alt="Muka"
-                                    size="100%"
-                                    src={require("assets/img/missbayc.png").default} />
-                                </div>
-                                <div className="col-md-6">
-                                  <h1 className="title">Bubble Queen</h1>
-                                  <div className="wrapper">
-                                    <div className="category">
-                                      <strong>Position:</strong> Coffee Guru and News Host <br />
-                                      <strong>Experience:</strong> 3 Years
-                                    </div>
-                                    <p className="description">
-                                      BubbleQueen, a coffee expert and news host who advocates for the use of blockcahin tech to revolutionize the coffee industry.
-                                      With expertise in both fields, she is becoming a leading voice in the Web3 community, sharing insights on brewing and
-                                      roasting techniques, blockchain-based supply chain management, and NFT coffee alpha.
-                                    </p>
-                                    <button className="category">
-                                      <a
-                                        href="https://twitter.com/Bubbles__Queen"
-                                        className="btn-icon btn-round btn btn-twitter"
-                                      >
-                                        <i className="fab fa-twitter"></i>
-                                      </a>
-                                    </button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="carousel-item">
-                            <div Row className="justify-content-between align-items-center">
-                              <div Col md={5}>
-                                <img
-                                  d-block img-fluid
-                                  alt="ghosttrapper"
-                                  className="ghost" />
-                              </div>
-                              <div>
-
-                                <div Col md={5}>
-
-
-                                  <div Col>
-                                    <p className="wrapper">
-                                      <p className="category">
-                                        <strong>Position:</strong> Social Media visionary <br />
-                                        <strong>Experience:</strong> 4 Years
-                                      </p>
-                                      <p className="description">
-                                        Sadica, a visionary and influencer with expertise in social media marketing and content creation.
-                                        She is passionate about using social media as a tool for social justice and empowerment, particularly in the Latinx community.
-                                        As a thought leader, she highlights diverse voices and experiences, inspiring others to use social media to promote positive change
-                                        and drive engagement. She is committed to inclusivity and representation, amplifying voices and sharing stories to the world.
-                                      </p>
-                                      <button className="category">
-                                        <a
-                                          href="https://twitter.com/Anniemariez"
-                                          className="btn-icon btn-round btn btn-twitter"
-                                        >
-                                          <i className="fab fa-twitter"></i>
-                                        </a>
-                                      </button>
-
-                                      </p>                     </div>
-
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+            </TeamCarousel>
 
 
 
-
-
-                      </div>
-
-                      <div className="carousel-item">
-                        <div Row className="justify-content-between align-items-center">
-                          <div Col md={6}>
-
-                            <img
-
-                              alt="ghosttrapper"
-                              className="ghost d-block img-fluid"
-                              src={require("assets/img/BubbleQ.png")} />
-
-                          </div>
-                          <div>
-                            <div Col>
-                              <h1 className="title">Mkdev</h1>
-                              <Col>
-
-                                <p className="wrapper">
-                                  <p className="category">
-                                    <strong>Position:</strong> Dev & Security <br />
-                                    <strong>Experience:</strong> 10 Years
-                                  </p>
-                                  <p className="description">
-                                    Mkdev, a cybersecurity professional with 9 years of experience in the government and security industries.
-                                    With expertise in computer network defense, offense operations, and blockchain technology,
-                                    Mkdev provides technical guidance and advice to project teams on security.
-                                  </p>
-
-                                  <a
-                                    href="https://twitter.com/mukubass"
-                                    className="btn-icon btn-round btn btn-twitter"
-                                  >
-                                    <i className="fab fa-twitter"></i>
-                                  </a>
-                                </p>
-                          
-                          
-                        </Col>
-                      </div>
-                    </div>
-                  </div>
-                 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-
-            <div class="col-md-6">
-              <a className="carouselcontrolnext">
-                <span>&gt;</span>
-              </a>
-
-            </div>
           
         </Container>
       </section>
