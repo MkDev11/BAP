@@ -278,7 +278,7 @@ export default function LandingPage() {
             </Col>
           </Row>
           <Container>
-            <TeamCarousel className="container-fluid py-2">
+            <TeamCarousel >
 
             </TeamCarousel>
 
